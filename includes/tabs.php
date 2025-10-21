@@ -13,7 +13,7 @@ $sections = [
     <ul>
         <?php 
         $index = 0;
-        foreach ($sections as $key => $value): 
+        foreach ($sections as $key => $value) {
             $activeClass = $index === 0 ? 'active' : '';
             $index++;
         ?>
@@ -24,6 +24,6 @@ $sections = [
                     <?php echo $value; ?>
                 </a>
             </li>
-        <?php endforeach; ?>
+        <?php } ?>
     </ul>
 </nav>
