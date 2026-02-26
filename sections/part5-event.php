@@ -12,7 +12,7 @@ $total = $inscripcion + $taller;
     </div>
 
     <div class="event-ticket">
-        <h3>🎟️ Resumen de Inscripción</h3>
+        <h3><i data-lucide="ticket"></i> Resumen de Inscripción</h3>
         
         <div class="event-info">
             <p><strong>Evento:</strong> Conferencia de Desarrollo Web & Business</p>
@@ -39,11 +39,11 @@ $total = $inscripcion + $taller;
         <div class="event-benefits">
             <h4>Incluye:</h4>
             <ul>
-                <li>✅ Acceso a todas las conferencias principales</li>
-                <li>✅ Material del taller especializado</li>
-                <li>✅ Networking con profesionales del sector</li>
-                <li>✅ Certificado de asistencia</li>
-                <li>✅ Coffee breaks y almuerzo</li>
+                <li><i data-lucide="check"></i> Acceso a todas las conferencias principales</li>
+                <li><i data-lucide="check"></i> Material del taller especializado</li>
+                <li><i data-lucide="check"></i> Networking con profesionales del sector</li>
+                <li><i data-lucide="check"></i> Certificado de asistencia</li>
+                <li><i data-lucide="check"></i> Coffee breaks y almuerzo</li>
             </ul>
         </div>
     </div>

@@ -14,8 +14,8 @@
             <p>Soy un desarrollador web apasionado por la tecnología y los negocios. Combino mis estudios en Administración de Empresas con mis habilidades en desarrollo frontend y backend, lo que me permite crear soluciones digitales con visión estratégica. Me encanta resolver problemas complejos a través del código y aplicar una mentalidad empresarial en cada proyecto.</p>
             <h3>Formación</h3>
             <ul>
-                <li>📚 Administración de Empresas</li>
-                <li>💻 Desarrollador Web</li>
+                <li><i data-lucide="book-open"></i> Administración de Empresas</li>
+                <li><i data-lucide="laptop"></i> Desarrollador Web</li>
             </ul>
             <h3>Intereses</h3>
             <ul>

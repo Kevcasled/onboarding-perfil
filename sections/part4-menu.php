@@ -28,7 +28,7 @@ $precio3 = 18.75;
 
         <div class="food-card">
             <div class="food-image">
-                <img src="assets/img/canelones-carne.jpg" alt="<?php echo $plato2; ?>" onerror="this.parentElement.innerHTML='<div class=\'food-placeholder\'>🍝 Canelones</div>'">
+                <img src="assets/img/canelones-carne.jpg" alt="<?php echo $plato2; ?>" onerror="this.parentElement.innerHTML='<div class=\'food-placeholder\'>Canelones</div>'">
             </div>
             <div class="food-info">
                 <h3><?php echo $plato2; ?></h3>
@@ -39,7 +39,7 @@ $precio3 = 18.75;
 
         <div class="food-card">
             <div class="food-image">
-                <img src="assets/img/bistec.jpg" alt="<?php echo $plato3; ?>" onerror="this.parentElement.innerHTML='<div class=\'food-placeholder\'>🥩 Bistec con Patatas</div>'">
+                <img src="assets/img/bistec.jpg" alt="<?php echo $plato3; ?>" onerror="this.parentElement.innerHTML='<div class=\'food-placeholder\'>Bistec con Patatas</div>'">
             </div>
             <div class="food-info">
                 <h3><?php echo $plato3; ?></h3>
@@ -50,7 +50,7 @@ $precio3 = 18.75;
     </div>
 
     <div class="menu-summary">
-        <p><strong>🍴 Total del menú completo:</strong> <?php echo number_format($precio1 + $precio2 + $precio3, 2, ',', '.'); ?>€</p>
+        <p><strong>Total del menú completo:</strong> <?php echo number_format($precio1 + $precio2 + $precio3, 2, ',', '.'); ?>€</p>
         <p>Mi selección favorita de platos. Cada uno tiene su propio sabor único y recuerdo especial.</p>
     </div>
 </div>

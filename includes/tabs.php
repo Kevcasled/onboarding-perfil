@@ -1,11 +1,11 @@
 <?php
 $sections = [
-    'profile' => 'Perfil',
-    'music' => 'Música',
-    'movies' => 'Películas',
-    'menu' => 'Menú',
-    'event' => 'Eventos',
-    'travel' => 'Viajes'
+    'profile' => ['label' => 'Perfil', 'icon' => 'user'],
+    'music' => ['label' => 'Música', 'icon' => 'music'],
+    'movies' => ['label' => 'Películas', 'icon' => 'film'],
+    'menu' => ['label' => 'Menú', 'icon' => 'utensils'],
+    'event' => ['label' => 'Eventos', 'icon' => 'calendar'],
+    'travel' => ['label' => 'Viajes', 'icon' => 'plane'],
 ];
 ?>
 
@@ -13,7 +13,7 @@ $sections = [
     <ul>
         <?php 
         $index = 0;
-        foreach ($sections as $key => $value) {
+        foreach ($sections as $key => $data) {
             $activeClass = $index === 0 ? 'active' : '';
             $index++;
         ?>
@@ -21,7 +21,8 @@ $sections = [
                 <a href="#" 
                    data-section="<?php echo $key; ?>"
                    class="tab-link <?php echo $activeClass; ?>">
-                    <?php echo $value; ?>
+                    <i data-lucide="<?php echo $data['icon']; ?>"></i>
+                    <span><?php echo $data['label']; ?></span>
                 </a>
             </li>
         <?php } ?>

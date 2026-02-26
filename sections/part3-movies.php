@@ -28,27 +28,27 @@ $averageDuration = $averageHours . "h " . $averageRemainingMinutes . "min";
             </thead>
             <tbody>
                 <tr>
-                    <td><div class="poster-placeholder">Demon Slayer</div></td>
+                    <td><img src="assets/img/kimetsunoyaiba.webp" alt="Kimetsu no Yaiba" class="movie-poster"></td>
                     <td class="movie-title">Kimetsu no Yaiba: La Fortaleza Infinita</td>
                     <td class="movie-duration">2h 57min</td>
                 </tr>
                 <tr>
-                    <td><div class="poster-placeholder">Tron Ares</div></td>
+                    <td><img src="assets/img/tron-ares.jpg" alt="Tron: Ares" class="movie-poster"></td>
                     <td class="movie-title">Tron: Ares</td>
                     <td class="movie-duration">1h 35min</td>
                 </tr>
                 <tr>
-                    <td><div class="poster-placeholder">Chainsaw Man</div></td>
+                    <td><img src="assets/img/chainsawman.png" alt="Chainsaw Man" class="movie-poster"></td>
                     <td class="movie-title">Chainsaw Man: El Arco de Reze</td>
                     <td class="movie-duration">1h 45min</td>
                 </tr>
                 <tr>
-                    <td><div class="poster-placeholder">The Conjuring</div></td>
+                    <td><img src="assets/img/expedientewarren.jpg" alt="Expediente Warren" class="movie-poster"></td>
                     <td class="movie-title">Expediente Warren: El Último Rito</td>
                     <td class="movie-duration">1h 50min</td>
                 </tr>
                 <tr>
-                    <td><div class="poster-placeholder">Bad Guys 2</div></td>
+                    <td><img src="assets/img/Los_tipos_malos_2_poster.webp" alt="Los Tipos Malos 2" class="movie-poster"></td>
                     <td class="movie-title">Los Tipos Malos 2</td>
                     <td class="movie-duration">1h 38min</td>
                 </tr>
@@ -57,9 +57,9 @@ $averageDuration = $averageHours . "h " . $averageRemainingMinutes . "min";
     </div>
 
     <div class="marathon-info">
-        <p><strong>📅 Fecha estimada:</strong> Próximo fin de semana</p>
-        <p><strong>👥 Con:</strong> Grupo de amigos cercanos</p>
-        <p><strong>🍿 Preparación:</strong> Palomitas, bebidas y un ambiente cómodo</p>
-        <p><strong>📊 Estadísticas:</strong> Duración total <?php echo $totalMinutes; ?> minutos, media <?php echo $averageDuration; ?> por película</p>
+        <p><i data-lucide="calendar"></i> <strong>Fecha estimada:</strong> Próximo fin de semana</p>
+        <p><i data-lucide="users"></i> <strong>Con:</strong> Grupo de amigos cercanos</p>
+        <p><i data-lucide="cup-soda"></i> <strong>Preparación:</strong> Palomitas, bebidas y un ambiente cómodo</p>
+        <p><i data-lucide="bar-chart-2"></i> <strong>Estadísticas:</strong> Duración total <?php echo $totalMinutes; ?> minutos, media <?php echo $averageDuration; ?> por película</p>
     </div>
 </div>
